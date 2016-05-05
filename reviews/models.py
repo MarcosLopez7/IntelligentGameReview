@@ -57,7 +57,7 @@ class General(models.Model):
     publisher = models.ForeignKey(Publisher)
     esrb = models.ForeignKey(ESRB)
     fecha_lanzamiento = models.DateField()
-    serie = models.ForeignKey(Serie)
+    serie = models.ForeignKey(Serie, default=777)
     foto = models.ImageField(upload_to='images')
     trailer = models.FileField(upload_to='videos')
     resumen = models.TextField()

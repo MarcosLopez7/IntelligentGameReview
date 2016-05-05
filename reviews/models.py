@@ -42,6 +42,12 @@ class ESRB(models.Model):
     def __str__(self):
         return self.clasificacion
 
+class Serie(models.Model):
+    serie = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.serie
+
 class General(models.Model):
     genero = models.ForeignKey(Genero)
     calificacion = models.ForeignKey(Calificacion)
@@ -51,6 +57,7 @@ class General(models.Model):
     publisher = models.ForeignKey(Publisher)
     esrb = models.ForeignKey(ESRB)
     fecha_lanzamiento = models.DateField()
+    serie = models.ForeignKey(Serie)
     foto = models.ImageField(upload_to='images')
     trailer = models.FileField(upload_to='videos')
     resumen = models.TextField()

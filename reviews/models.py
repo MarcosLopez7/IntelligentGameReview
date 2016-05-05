@@ -63,8 +63,8 @@ class General(models.Model):
     esrb = models.ForeignKey(ESRB)
     fecha_lanzamiento = models.DateField()
     serie = models.ForeignKey(Serie, default=777)
-    foto = models.ImageField(upload_to='images')
-    trailer = models.FileField(upload_to='videos')
+    foto = models.ImageField(upload_to='assets/images')
+    trailer = models.FileField(upload_to='assets/videos')
     resumen = models.TextField()
     precio = models.DecimalField(max_digits=12, decimal_places=2)
 

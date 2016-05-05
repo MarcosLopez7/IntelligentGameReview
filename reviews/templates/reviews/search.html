@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}Available Courses{% endblock %}
+
+{% block content %}
+        <label>Buscar juego</label>
+        <textarea rows="1" cols="50" id="nombre">
+
+        </textarea>
+        <button onclick="buscar()"></button>
+{% endblock %}
+
+{% block js_files %}
+    <script src="{% static 'js/buscar.js' %}"></script>
+{% endblock js_files %}

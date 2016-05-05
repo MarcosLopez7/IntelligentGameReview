@@ -28,8 +28,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5173267">
-              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.66831684">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -213,7 +213,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/__pycache__/__init__.cpython-34.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/models.cpython-34.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/models.py</PATH>
         </FILE-GROUP>
@@ -223,10 +222,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/migrations/0002_auto_20160505_1927.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/migrations/__pycache__/0002_auto_20160505_1855.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/migrations/__pycache__/0002_auto_20160505_1927.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/migrations/__pycache__/0003_auto_20160505_1920.cpython-34.pyc</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -528,7 +523,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462473960323</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cancer en el modelo">
+      <created>1462484110400</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1462484110400</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -562,7 +563,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="definiendo modelos" />
     <MESSAGE value="poniendo el modelo de serie" />
-    <option name="LAST_COMMIT_MESSAGE" value="poniendo el modelo de serie" />
+    <MESSAGE value="cancer en el modelo" />
+    <option name="LAST_COMMIT_MESSAGE" value="cancer en el modelo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -629,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5173267">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.66831684">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding />
         </state>
       </provider>

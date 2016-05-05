@@ -50,12 +50,12 @@ class Serie(models.Model):
 
 class General(models.Model):
     genero = models.ForeignKey(Genero)
-    calificacion1 = models.ForeignKey(Calificacion, default=777)
-    calificacion2 = models.ForeignKey(Calificacion, default=777)
-    calificacion3 = models.ForeignKey(Calificacion, default=777)
-    calificacion4 = models.ForeignKey(Calificacion, default=777)
-    calificacion5 = models.ForeignKey(Calificacion, default=777)
-    calificacionP = models.ForeignKey(Calificacion, default=777)
+    calificacion1 = models.ForeignKey(Calificacion)
+    calificacion2 = models.ForeignKey(Calificacion)
+    calificacion3 = models.ForeignKey(Calificacion)
+    calificacion4 = models.ForeignKey(Calificacion)
+    calificacion5 = models.ForeignKey(Calificacion)
+    calificacionP = models.ForeignKey(Calificacion)
     nombre = models.ForeignKey(Nombre)
     plataforma = models.ForeignKey(Plataforma)
     player = models.ForeignKey(Player)

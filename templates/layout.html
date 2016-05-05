@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 </head>
 <body>
+	{% block nav %}
+		<ul id="pito" class="navbar">
+			<li class="navli"><a href="" class="nava">kuz</a></li>
+			<li class="navli"><a href="" class="nava">kuz</a></li>
+		</ul><br>
+	{% endblock %}
+
     {% block content %}{% endblock %}
 </body>
 </html>

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397556a3-14ee-4d1e-ab17-6bc1ca909248" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IGR/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IGR/urls.py" afterPath="$PROJECT_DIR$/IGR/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IGR/settings.py" afterPath="$PROJECT_DIR$/IGR/settings.py" />
     </list>
     <ignored path="IGR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IGR/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5105348">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#636#668#0" expanded="true" />
@@ -80,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IGR/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.46191248">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -148,13 +145,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IGR/settings.py" />
         <option value="$PROJECT_DIR$/reviews/admin.py" />
         <option value="$PROJECT_DIR$/reviews/models.py" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/IGR/views.py" />
         <option value="$PROJECT_DIR$/IGR/urls.py" />
+        <option value="$PROJECT_DIR$/IGR/settings.py" />
       </list>
     </option>
   </component>
@@ -593,7 +590,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462485097605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="La primera vista, no tiene nada">
+      <created>1462485925087</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462485925087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -629,7 +632,8 @@
     <MESSAGE value="poniendo el modelo de serie" />
     <MESSAGE value="cancer en el modelo" />
     <MESSAGE value="cancer en el modelo 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="cancer en el modelo 2.0" />
+    <MESSAGE value="La primera vista, no tiene nada" />
+    <option name="LAST_COMMIT_MESSAGE" value="La primera vista, no tiene nada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -694,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IGR/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
@@ -718,6 +714,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IGR/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
@@ -726,13 +732,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IGR/urls.py">
+    <entry file="file://$PROJECT_DIR$/IGR/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5105348">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.46191248">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

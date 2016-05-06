@@ -82,8 +82,8 @@
       <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.3288364">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -102,8 +102,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -113,10 +113,8 @@
         <entry file="file://$PROJECT_DIR$/assets/js/buscar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#buscar#0" expanded="false" />
-              </folding>
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/reviews/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -285,7 +283,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IGR" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,7 +318,15 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/__pycache__/urls.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/buscar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/admin.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/models.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/admin.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/templates/reviews/search.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/urls.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/layout.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -329,6 +335,56 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/AOE2HD.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/AOE3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Castlevania.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/CoDBlackOps.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/ConkerLR.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/DBXenoverse.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/GTAV.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/GearsOfWar.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/GuildWars2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Halo2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Halo3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Halo3ODST.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Halo3_B9ZlJM3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Halo3_ETbe9gS.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Halo3_moi0pwv.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Heavensward.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/LoL.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/PrinceOfPersia.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Skyrim.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/StarWarsBattlefront.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/StarWarsBattlefront_chtfKfZ.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/gaaaay.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/gaaaay_2GJCVVn.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/infamous.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/AOE2.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/AOE3.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Anhelum.wmv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Anhelum_1Npbftn.wmv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Castlevania.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Dragonball.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/FFXIV.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/GTAV.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/GW2.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Halo3.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Halo3_KPUeliP.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Halo3_KsEStRi.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Halo3_XfMTE6m.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/HaloODST.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/INFAMOUS.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/Skyrim.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/batlefront.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/batlefront_y02pTfC.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/callofduty.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/conker_.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/gears.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/halo2.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/lol.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/videos/prince.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/urls.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/views.cpython-34.pyc</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -678,7 +734,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462493532650</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="arreglando view">
+      <created>1462493644333</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1462493644333</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -720,7 +782,8 @@
     <MESSAGE value="modificacion del cancer" />
     <MESSAGE value="VIstas y vistas" />
     <MESSAGE value="layouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="layouts" />
+    <MESSAGE value="arreglando view" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglando view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -803,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/buscar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#buscar#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reviews/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -831,11 +884,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/results.html">
+    <entry file="file://$PROJECT_DIR$/reviews/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,28 +902,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/buscar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.3288364">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
         </state>
       </provider>

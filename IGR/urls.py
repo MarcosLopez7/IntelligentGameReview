@@ -21,7 +21,7 @@ from . import views
 urlpatterns = [
     url(r'^reviews/', include('reviews.urls', namespace='reviews')),
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index),
+    url(r'^$', views.index, name='index'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

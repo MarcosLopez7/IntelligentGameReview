@@ -69,4 +69,4 @@ class General(models.Model):
     precio = models.DecimalField(max_digits=12, decimal_places=2)
 
     def __str__(self):
-        return self.nombre
+        return self.nombre.nombre

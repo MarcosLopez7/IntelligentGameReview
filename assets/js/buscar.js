@@ -5,5 +5,5 @@
 function buscar(){
     var texto = $('#nombre').val();
 
-    window.location.replace('/listgame/?texto=' + texto)
+    window.location.replace('/reviews/listgame/?texto=' + texto)
 }

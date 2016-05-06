@@ -4,6 +4,7 @@
 {% block title %}Available Courses{% endblock %}
 
 {% block content %}
+<script src="{% static 'js/buscar.js' %}"></script>
         <label>Buscar juego</label>
         <textarea rows="1" cols="50" id="nombre">
 
@@ -11,5 +12,3 @@
         <button onclick="buscar()">Buscar</button>
 {% endblock %}
 
-{% load static %}
-<script src="{% static 'js/buscar.js' %}"></script>

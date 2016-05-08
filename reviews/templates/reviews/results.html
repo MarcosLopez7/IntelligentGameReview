@@ -3,5 +3,12 @@
 {% block title %}Available Courses{% endblock %}
 
 {% block content %}
-
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    {% if reviews %}
+        {% for review in reviews %}
+            <div class="cuadro"> {{ review }}</div>
+        {% endfor %}
+    {% else %}
+        <div class="cuadro"> No hay nada que mostrar</div>
+    {% endif %}
 {% endblock %}

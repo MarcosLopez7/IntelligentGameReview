@@ -5,6 +5,7 @@ from .models import *
 def search_game(request):
     return render(request, 'reviews/search.html')
 
+
 def list_game(request):
     texto = request.GET['texto']
     games = Nombre.objects.filter(nombre=texto)

@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% load static from staticfiles %}
 
 {% block title %}Available Courses{% endblock %}
 
@@ -6,7 +7,11 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     {% if reviews %}
         {% for review in reviews %}
-            <div class="cuadro"> {{ review }}</div>
+            <div class="cuadro">
+                {{ review.nombre.nombre }}
+                {% strfoto = review.foto[7:] %}
+                <img src="{% static strfoto %}">
+            </div>
         {% endfor %}
     {% else %}
         <div class="cuadro"> No hay nada que mostrar</div>

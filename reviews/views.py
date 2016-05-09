@@ -8,10 +8,10 @@ def search_game(request):
 
 def list_game(request):
     texto = request.GET['texto']
-    games = Nombre.objects.filter(nombre=texto)
+    games = Nombre.objects.filter(nombre__icontains=texto)
     reviews = []
     for game in games:
-        reviews.append(General.objects.get(pk = game.nombre.pk))
+        reviews.append(General.objects.filter(nombre = game))
 
     return render(request, 'reviews/results.html', {'reviews': reviews})
 

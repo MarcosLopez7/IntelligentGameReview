@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'GameReview',
-        'USER': 'pehcao',
-        'PASSWORD': 'A1872555a.',
+        'USER': 'ldaw',
+        'PASSWORD': 'ldaw',
         'HOST': 'localhost',
         'PORT': '',
     }

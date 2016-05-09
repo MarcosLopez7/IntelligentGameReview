@@ -9,8 +9,7 @@
         {% for review in reviews %}
             <div class="cuadro">
                 {{ review.nombre.nombre }}
-                {% strfoto = review.foto[7:] %}
-                <img src="{% static strfoto %}">
+                <img src="{% static review.foto %}">
             </div>
         {% endfor %}
     {% else %}

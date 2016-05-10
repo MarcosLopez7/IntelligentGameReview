@@ -4,7 +4,6 @@
     <list default="true" id="397556a3-14ee-4d1e-ab17-6bc1ca909248" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/templates/reviews/results.html" afterPath="$PROJECT_DIR$/reviews/templates/reviews/results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/views.py" afterPath="$PROJECT_DIR$/reviews/views.py" />
     </list>
     <ignored path="IGR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="results.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22765599">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.2529511">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -713,7 +712,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462919256936</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ya vi el problema de los templates">
+      <created>1462922494441</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1462922494441</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -793,7 +798,8 @@
     <MESSAGE value="a ver si si&#10;" />
     <MESSAGE value="a ver si si 2.0&#10;" />
     <MESSAGE value="poniendo vistas, y rafa implementando la prediccion&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="poniendo vistas, y rafa implementando la prediccion&#10;" />
+    <MESSAGE value="ya vi el problema de los templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="ya vi el problema de los templates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1201,8 +1207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22765599">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.2529511">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding />
         </state>
       </provider>

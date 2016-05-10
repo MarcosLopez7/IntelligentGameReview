@@ -7,8 +7,8 @@
     {% if reviews %}
         {% for review in reviews %}
             <div class="cuadro">
-                <h1>{{ review.nombre }}</h1>
-                {{ review.foto.url|slice:"7:" }}
+                <h3>{{ review.nombre }}</h3>
+                <h6>{{ review.publisher }}</h6>
                 <img src="{% static review.foto.url|slice:"7:" %}">
             </div>
         {% endfor %}

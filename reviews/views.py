@@ -1,6 +1,5 @@
 from django.shortcuts import render, get_object_or_404
 from .models import *
-from .proyectoLDAW import *
 
 # Create your views here.
 def search_game(request):
@@ -15,7 +14,6 @@ def list_game(request):
     i = 0
     for game in games:
         reviews.append(General.objects.filter(nombre = game))
-        fotos.append(reviews[i].foto[7:])
         i = i + 1
 
     return render(request, 'reviews/results.html', {'reviews': reviews, 'fotos': fotos})

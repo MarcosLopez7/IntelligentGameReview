@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^reviews/', include('reviews.urls', namespace='reviews')),
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
+    url(r'^info', views.info, name='info'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

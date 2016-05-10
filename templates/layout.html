@@ -9,8 +9,9 @@
 <body>
 	{% block nav %}
 		<ul id="pito" class="navbar">
-                    <li class="navli"><a href="{% url  'index' %}" class="nava">Home</a></li>
-			<li class="navli"><a href="{% url 'reviews:search' %}" class="nava">kuz</a></li>
+            <li class="navli"><a href="{% url  'index' %}" class="nava">Home</a></li>
+			<li class="navli"><a href="{% url 'reviews:search' %}" class="nava">Buscar Juego</a></li>
+            <li class="navli"><a href="{% url 'info' %}" class="nava">Informacion</a></li>
 		</ul><br>
 	{% endblock %}
 

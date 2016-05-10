@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import *
+from .proyectoLDAW import *
 
 # Create your views here.
 def search_game(request):
@@ -19,3 +20,6 @@ def list_game(request):
 
     return render(request, 'reviews/results.html', {'reviews': reviews, 'fotos': fotos})
 
+def game(request, pk):
+    game = General.objects.get(pk = pk)
+    

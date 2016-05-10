@@ -6,10 +6,9 @@
 {% block content %}
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     {% if reviews %}
-        {% for i in range(len(reviews)) %}
+        {% for review in reviews %}
             <div class="cuadro">
-                {{ reviews[i].nombre.nombre }}
-                <img src="{% static fotos[i] %}">
+                {{ review }}
             </div>
         {% endfor %}
     {% else %}

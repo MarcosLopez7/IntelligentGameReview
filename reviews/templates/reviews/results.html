@@ -6,11 +6,11 @@
 {% block content %}
     {% if reviews %}
         {% for review in reviews %}
-        <!--<div class="cuadro">-->
-            <h1>{{ review.nombre }}</h1>
-                <!--{{ review.foto.url|slice:"7:" }}
-                <img src="{% static review.foto.url|slice:"7:" %}">-->
-                <!-- </div>-->
+            <div class="cuadro">
+                <h1>{{ review.nombre }}</h1>
+                {{ review.foto.url|slice:"7:" }}
+                <img src="{% static review.foto.url|slice:"7:" %}">
+            </div>
         {% endfor %}
     {% else %}
         <div class="cuadro"> No hay nada que mostrar</div>

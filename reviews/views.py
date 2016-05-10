@@ -10,13 +10,11 @@ def list_game(request):
     texto = request.GET['texto']
     games = Nombre.objects.filter(nombre__icontains=texto)
     reviews = []
-    fotos = []
-    i = 0
-    for game in games:
-        reviews.append(General.objects.filter(nombre = game))
-        i = i + 1
 
-    return render(request, 'reviews/results.html', {'reviews': reviews, 'fotos': fotos})
+    for game in games:
+        reviews.append(General.objects.get(nombre = game))
+
+    return render(request, 'reviews/results.html', {'reviews': reviews})
 
 def game(request, pk):
     game = General.get_object_or_404(General, pk = pk)

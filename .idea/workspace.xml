@@ -93,8 +93,8 @@
       <file leaf-file-name="game.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4806071">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.3288364">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -845,7 +845,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462975770433</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="&lt;br&gt;">
+      <created>1462975895194</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1462975895194</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -907,7 +913,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arreglando bug con esa vista" />
     <MESSAGE value="poniendo los staticfiles" />
     <MESSAGE value="modificacion del cancer" />
     <MESSAGE value="VIstas y vistas" />
@@ -932,7 +937,8 @@
     <MESSAGE value="cargando css" />
     <MESSAGE value="fonts google" />
     <MESSAGE value="cargando la vista del juego" />
-    <option name="LAST_COMMIT_MESSAGE" value="cargando la vista del juego" />
+    <MESSAGE value="&lt;br&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;br&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1345,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4806071">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.3288364">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding />
         </state>
       </provider>

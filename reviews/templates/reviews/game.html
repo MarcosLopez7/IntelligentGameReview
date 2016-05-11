@@ -6,11 +6,13 @@
 {% block content %}
 
     <h2>{{  game.nombre.nombre }}</h2>
-    <img src="{% static game.foto.url|slice:"7:" %}">
+
     <video width="320" height="240" autoplay>
         <source src="{% static game.video.url|slice:"7:" %}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    video url: {{ game.video.url|slice:"7:"  }}
+    <img src="{% static game.foto.url|slice:"7:" %}"><br>
     Fecha de lanzamiento: {{ game.fecha_lanzamiento|date:"D d M Y" }}<br>
     Serie: {{ game.serie }}<br>
     Publisher: {{ game.publisher }}<br>

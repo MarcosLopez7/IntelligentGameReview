@@ -11,12 +11,12 @@
         <source src="{% static game.video.url|slice:"7:" %}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    Fecha de lanzamiento: {{ game.fecha_lanzamiento|date:"D d M Y" }}
-    Serie: {{ game.serie }}
-    Publisher: {{ game.publisher }}
-    Plataforma: {{ game.plataforma }}
-    Numero de jugadores: {{ game.player }}
-    Precio: {{ game.precio }}
-    {{ game.resumen }}
+    Fecha de lanzamiento: {{ game.fecha_lanzamiento|date:"D d M Y" }}<br>
+    Serie: {{ game.serie }}<br>
+    Publisher: {{ game.publisher }}<br>
+    Plataforma: {{ game.plataforma }}<br>
+    Numero de jugadores: {{ game.player }}<br>
+    Precio: {{ game.precio }}<br>
+    {{ game.resumen }}<br>
 
 {% endblock %}

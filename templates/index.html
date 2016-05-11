@@ -1,7 +1,18 @@
 {% extends "layout.html" %}
-
+{% load static from staticfiles %}
 {% block title %}Intelligent Game Review{% endblock %}
 
 {% block content %}
-<h1>Allah Uakbar</h1>
+<h1 class="title">Project Inteligent Videogame Reviews</h1>
+    <h3>
+        Existe un segmento del Mercado Gamer que experimenta un dolor en el Mercado: hay incertidumbre por parte del
+        consumidor hacia los sitios web que realizan las reviews de los juegos y por lo tanto dificulta la toma de
+        decisiones a la hora de realizar una compra con un presupuesto determinado.
+        <br>
+        Como respuesta a este problema proponemos crear un sistema gratuito de recomendaciones inteligentes de
+        videojuegos basado en las reseñas que dejan tus amigos, los Tweets de positivos o negativos de otros gamers en
+        el mundo.
+
+        <img src="{% static 'images/DarkSouls3.jpg' %}">
+    </h3>
 {% endblock %}

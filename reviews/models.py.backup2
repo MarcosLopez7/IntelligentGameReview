@@ -6,17 +6,11 @@ class Genero(models.Model):
     def __str__(self):
         return self.nombre
 
-    class Meta:
-        app_label = 'reviews'
-
 class Calificacion(models.Model):
     calificacion = models.CharField(max_length=255)
 
     def __str__(self):
         return self.calificacion
-
-    class Meta:
-        app_label = 'reviews'
 
 class Nombre(models.Model):
     nombre = models.CharField(max_length=255)
@@ -24,17 +18,11 @@ class Nombre(models.Model):
     def __str__(self):
         return self.nombre
 
-    class Meta:
-        app_label = 'reviews'
-
 class Plataforma(models.Model):
     nombre = models.CharField(max_length=255)
 
     def __str__(self):
         return self.nombre
-
-    class Meta:
-        app_label = 'reviews'
 
 class Player(models.Model):
     numJugadores = models.CharField(max_length=255)
@@ -42,35 +30,23 @@ class Player(models.Model):
     def __str__(self):
         return self.numJugadores
 
-    class Meta:
-        app_label = 'reviews'
-
 class Publisher(models.Model):
     nombre = models.CharField(max_length=255)
 
     def __str__(self):
         return self.nombre
-    
-    class Meta:
-        app_label = 'reviews'
 
 class ESRB(models.Model):
     clasificacion = models.CharField(max_length=255)
 
     def __str__(self):
         return self.clasificacion
-    
-    class Meta:
-        app_label = 'reviews'
 
 class Serie(models.Model):
     serie = models.CharField(max_length=255)
 
     def __str__(self):
         return self.serie
-    
-    class Meta:
-        app_label = 'reviews'
 
 class General(models.Model):
     genero = models.ForeignKey(Genero)
@@ -94,7 +70,4 @@ class General(models.Model):
 
     def __str__(self):
         return self.nombre.nombre
-    
-    class Meta:
-        app_label = 'reviews'
 

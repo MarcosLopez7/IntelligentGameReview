@@ -91,21 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125">
-              <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.2529511">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45918366">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.413794">
+              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -177,8 +177,8 @@
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/IGR/settings.py" />
         <option value="$PROJECT_DIR$/reviews/templates/reviews/results.html" />
-        <option value="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
         <option value="$PROJECT_DIR$/reviews/views.py" />
+        <option value="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
       </list>
     </option>
   </component>
@@ -932,7 +932,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462989302579</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="maldito django templates">
+      <created>1462989904180</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1462989904180</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -994,7 +1000,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="a ver si si&#10;" />
     <MESSAGE value="a ver si si 2.0&#10;" />
     <MESSAGE value="poniendo vistas, y rafa implementando la prediccion&#10;" />
     <MESSAGE value="ya vi el problema de los templates" />
@@ -1019,7 +1024,8 @@
     <MESSAGE value="genero 2.o" />
     <MESSAGE value="genero 2.a" />
     <MESSAGE value="a ver si si" />
-    <option name="LAST_COMMIT_MESSAGE" value="a ver si si" />
+    <MESSAGE value="maldito django templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="maldito django templates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1460,21 +1466,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reviews/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45918366">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.413794">
+          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2529511">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

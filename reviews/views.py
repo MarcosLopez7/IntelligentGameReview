@@ -19,5 +19,8 @@ def list_game(request):
 
 def game(request, pk):
     game = get_object_or_404(General, pk = pk)
-    return render(request, 'reviews/game.html', {'game': game})
+    estrellas = []
+    for i in range(game.calificacionP):
+        estrellas.append('&#9733;')
+    return render(request, 'reviews/game.html', {'game': game, 'estrellas': estrellas})
     

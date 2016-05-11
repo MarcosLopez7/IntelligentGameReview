@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="397556a3-14ee-4d1e-ab17-6bc1ca909248" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/templates/reviews/game.html" afterPath="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/views.py" afterPath="$PROJECT_DIR$/reviews/views.py" />
     </list>
     <ignored path="IGR.iws" />
@@ -91,21 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2529511">
+            <state vertical-scroll-proportion="-6.25">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.413794">
-              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.5867347">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -177,8 +176,8 @@
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/IGR/settings.py" />
         <option value="$PROJECT_DIR$/reviews/templates/reviews/results.html" />
-        <option value="$PROJECT_DIR$/reviews/views.py" />
         <option value="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
+        <option value="$PROJECT_DIR$/reviews/views.py" />
       </list>
     </option>
   </component>
@@ -188,9 +187,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="1431" />
     <option name="y" value="-4" />
-    <option name="width" value="1301" />
+    <option name="width" value="959" />
     <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -938,7 +937,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462989904180</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="maldito django templates 2.0">
+      <created>1462990252498</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1462990252498</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -951,10 +956,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="1431" y="-4" width="959" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27649403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3800657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833335" sideWeight="0.50303954" order="7" side_tool="true" content_ui="tabs" />
@@ -1000,7 +1005,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="a ver si si 2.0&#10;" />
     <MESSAGE value="poniendo vistas, y rafa implementando la prediccion&#10;" />
     <MESSAGE value="ya vi el problema de los templates" />
     <MESSAGE value="publisher" />
@@ -1025,7 +1029,8 @@
     <MESSAGE value="genero 2.a" />
     <MESSAGE value="a ver si si" />
     <MESSAGE value="maldito django templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="maldito django templates" />
+    <MESSAGE value="maldito django templates 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="maldito django templates 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1466,21 +1471,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/views.py">
+    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.413794">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
+    <entry file="file://$PROJECT_DIR$/reviews/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2529511">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.5867347">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

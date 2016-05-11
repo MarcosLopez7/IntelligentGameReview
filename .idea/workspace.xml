@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="397556a3-14ee-4d1e-ab17-6bc1ca909248" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/templates/reviews/game.html" afterPath="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
     </list>
     <ignored path="IGR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -911,7 +910,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462988375477</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="genero 2.a">
+      <created>1462988615105</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1462988615105</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -973,7 +978,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="marshmamellow 3.0" />
     <MESSAGE value="marshmamellow 3.1&#10;" />
     <MESSAGE value="a ver si si&#10;" />
     <MESSAGE value="a ver si si 2.0&#10;" />
@@ -998,7 +1002,8 @@
     <MESSAGE value="vim es una basura" />
     <MESSAGE value="genero" />
     <MESSAGE value="genero 2.o" />
-    <option name="LAST_COMMIT_MESSAGE" value="genero 2.o" />
+    <MESSAGE value="genero 2.a" />
+    <option name="LAST_COMMIT_MESSAGE" value="genero 2.a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

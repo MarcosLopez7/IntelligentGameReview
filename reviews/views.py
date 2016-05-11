@@ -21,6 +21,6 @@ def game(request, pk):
     game = get_object_or_404(General, pk = pk)
     estrellas = []
     for i in range(game.calificacionP):
-        estrellas.append('\&#9733;')
+        estrellas.append('&#9733;')
     return render(request, 'reviews/game.html', {'game': game, 'estrellas': estrellas})
     

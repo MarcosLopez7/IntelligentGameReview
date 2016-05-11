@@ -4,12 +4,16 @@
 {% block title %}Available Courses{% endblock %}
 
 {% block content %}
+<div id="WRsearch">
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
     <script src="{% static 'js/buscar.js' %}"></script>
+    <h2>Busca un juego de tu preferencia en base a su titulo</h2>
         <label id="guevo">Buscar juego</label>
         <input type="text" rows="1" cols="50" id="nombre">
 
         </textarea>
         <button onclick="buscar()" id="picatela">Buscar</button>
+</div>
+
 {% endblock %}
 

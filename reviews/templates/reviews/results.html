@@ -7,9 +7,9 @@
     {% if reviews %}
         {% for review in reviews %}
             <div class="cuadro">
-                <h3><a href="{% url 'reviews:detail' pk=review.pk %}">{{ review.nombre }}</a></h3>
+                <h3><a href="{% url 'reviews:detail' pk=review.pk %}" id="marshmamellow">{{ review.nombre }}</a></h3>
                 <h5>{{ review.publisher }}</h5>
-                <img src="{% static review.foto.url|slice:"7:" %}">
+                <img src="{% static review.foto.url|slice:"7:" %}" id="lord">
             </div>
         {% endfor %}
     {% else %}

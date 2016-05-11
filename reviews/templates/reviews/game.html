@@ -5,20 +5,30 @@
 
 {% block content %}
 
-    <h2>{{  game.nombre.nombre }}</h2>
+    <h2>{{  game.nombre.nombre }}</h2><br>
+
+    <img src="{% static game.foto.url|slice:"7:" %}" id="coman"><br>
+
+    <h3>Información</h3>
+
+    <p class="cancer"><span class="polio">Fecha de lanzamiento:</span> {{ game.fecha_lanzamiento|date:"D d M Y" }}</p>
+    <p class="cancer"><span class="polio">Serie:</span> {{ game.serie }}</p>
+    <p class="cancer"><span class="polio">Publisher:</span> {{ game.publisher }}</p>
+    <p class="cancer"><span class="polio">Plataforma:</span> {{ game.plataforma }}</p>
+    <p class="cancer"><span class="polio">Numero de jugadores:</span> {{ game.player }}</p>
+    <p class="cancer"><span class="polio">Precio:</span> {{ game.precio }}</p>
+    <p class="cancer"><span class="polio">Detalles:</span>{{ game.resumen }}</p>
 
     <h3>Trailer:</h3>
-    <video width="320" height="240" autoplay controls="controls">
+
+
+    <video width="320" height="240" controls="controls">
         <source src="{% static game.trailer.url|slice:"7:" %}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video><br>
-    <img src="{% static game.foto.url|slice:"7:" %}"><br>
-    Fecha de lanzamiento: {{ game.fecha_lanzamiento|date:"D d M Y" }}<br>
-    Serie: {{ game.serie }}<br>
-    Publisher: {{ game.publisher }}<br>
-    Plataforma: {{ game.plataforma }}<br>
-    Numero de jugadores: {{ game.player }}<br>
-    Precio: {{ game.precio }}<br>
-    {{ game.resumen }}<br>
+    </video>
+
+<!--
+<iframe width="420" height="315" src="{% static game.trailer.url|slice:"7:" %}" frameborder="0" allowfullscreen></iframe>
+-->
+    <br>
 
 {% endblock %}

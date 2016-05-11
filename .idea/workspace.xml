@@ -42,8 +42,18 @@
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding>
+                <marker date="1462987015950" expanded="true" signature="11:106" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="122:152" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="158:182" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="201:227" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="235:346" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="354:395" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="404:498" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="505:618" placeholder="{...}" />
+                <marker date="1462987015950" expanded="true" signature="632:1783" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +103,8 @@
       <file leaf-file-name="game.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2529511">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.5059022">
+              <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -114,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -355,13 +365,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/__pycache__/settings.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/__pycache__/urls.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/__pycache__/views.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/IGR/settings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/models.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/__pycache__/views.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/templates/reviews/game.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/templates/reviews/results.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/templates/reviews/search.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/index.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -369,8 +377,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/reviews/models.py.backup2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/twitter.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -869,7 +875,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462976249321</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="video 2.2 controls">
+      <created>1462976669532</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1462976669532</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -931,7 +943,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="layouts" />
     <MESSAGE value="arreglando view" />
     <MESSAGE value="marshmamellow" />
     <MESSAGE value="marshmamellow 2.0" />
@@ -956,7 +967,8 @@
     <MESSAGE value="video" />
     <MESSAGE value="video 2.0" />
     <MESSAGE value="video 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="video 2.1" />
+    <MESSAGE value="video 2.2 controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="video 2.2 controls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1001,7 +1013,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
+          <folding>
+            <marker date="1462987015950" expanded="true" signature="11:106" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="122:152" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="158:182" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="201:227" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="235:346" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="354:395" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="404:498" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="505:618" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="632:1783" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,7 +1106,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1462987015950" expanded="true" signature="11:106" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="122:152" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="158:182" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="201:227" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="235:346" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="354:395" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="404:498" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="505:618" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="632:1783" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,7 +1198,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1462987015950" expanded="true" signature="11:106" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="122:152" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="158:182" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="201:227" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="235:346" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="354:395" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="404:498" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="505:618" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="632:1783" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,15 +1354,25 @@
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <marker date="1462987015950" expanded="true" signature="11:106" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="122:152" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="158:182" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="201:227" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="235:346" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="354:395" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="404:498" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="505:618" placeholder="{...}" />
+            <marker date="1462987015950" expanded="true" signature="632:1783" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1369,8 +1421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2529511">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.5059022">
+          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
           <folding />
         </state>
       </provider>

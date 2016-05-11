@@ -93,8 +93,8 @@
       <file leaf-file-name="game.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20236088">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2529511">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -863,7 +863,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462976110465</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="video 2.1">
+      <created>1462976249321</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1462976249321</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -925,7 +931,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="VIstas y vistas" />
     <MESSAGE value="layouts" />
     <MESSAGE value="arreglando view" />
     <MESSAGE value="marshmamellow" />
@@ -950,7 +955,8 @@
     <MESSAGE value="&lt;br&gt;" />
     <MESSAGE value="video" />
     <MESSAGE value="video 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="video 2.0" />
+    <MESSAGE value="video 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="video 2.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1363,8 +1369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20236088">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2529511">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
           <folding />
         </state>
       </provider>

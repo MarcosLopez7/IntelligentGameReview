@@ -4,7 +4,6 @@
     <list default="true" id="397556a3-14ee-4d1e-ab17-6bc1ca909248" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/templates/reviews/game.html" afterPath="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/templates/reviews/results.html" afterPath="$PROJECT_DIR$/reviews/templates/reviews/results.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reviews/views.py" afterPath="$PROJECT_DIR$/reviews/views.py" />
     </list>
     <ignored path="IGR.iws" />
@@ -30,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="results.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="results.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3035413">
+            <state vertical-scroll-proportion="-7.5">
               <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
               <folding />
             </state>
@@ -95,18 +94,18 @@
       <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+            <state vertical-scroll-proportion="-13.125">
+              <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.862069">
-              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.45918366">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -177,9 +176,9 @@
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/IGR/settings.py" />
-        <option value="$PROJECT_DIR$/reviews/views.py" />
-        <option value="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
         <option value="$PROJECT_DIR$/reviews/templates/reviews/results.html" />
+        <option value="$PROJECT_DIR$/reviews/templates/reviews/game.html" />
+        <option value="$PROJECT_DIR$/reviews/views.py" />
       </list>
     </option>
   </component>
@@ -927,7 +926,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462988622913</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="a ver si si">
+      <created>1462989302579</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1462989302579</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -989,7 +994,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="marshmamellow 3.1&#10;" />
     <MESSAGE value="a ver si si&#10;" />
     <MESSAGE value="a ver si si 2.0&#10;" />
     <MESSAGE value="poniendo vistas, y rafa implementando la prediccion&#10;" />
@@ -1014,7 +1018,8 @@
     <MESSAGE value="genero" />
     <MESSAGE value="genero 2.o" />
     <MESSAGE value="genero 2.a" />
-    <option name="LAST_COMMIT_MESSAGE" value="genero 2.a" />
+    <MESSAGE value="a ver si si" />
+    <option name="LAST_COMMIT_MESSAGE" value="a ver si si" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1439,24 +1444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.862069">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5">
@@ -1467,9 +1454,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3035413">
+        <state vertical-scroll-proportion="-7.5">
           <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/templates/reviews/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45918366">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,12 +1,22 @@
-body{
-    background-color: chartreuse;
+html, body {
+    margin: 0px;
+    background-color:chartreuse;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/*GENERAL*/
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 
 .navbar .active {
     font-weight: bold;
 }
-
-
 
 #pito {
     list-style-type: none;

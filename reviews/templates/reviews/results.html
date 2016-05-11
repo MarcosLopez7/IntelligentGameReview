@@ -4,6 +4,13 @@
 {% block title %}Available Courses{% endblock %}
 
 {% block content %}
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+    <script src="{% static 'js/buscar.js' %}"></script>
+        <label id="guevo">Buscar juego</label>
+        <input type="text" rows="1" cols="50" id="nombre">
+
+        </textarea>
+        <button onclick="buscar()" id="picatela">Buscar</button><br>
     {% if reviews %}
         {% for review in reviews %}
             <div class="cuadro">

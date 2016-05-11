@@ -19,7 +19,8 @@
     <p class="cancer"><span class="polio">Numero de jugadores:</span> {{ game.player }}</p>
     <p class="cancer"><span class="polio">Precio:</span> {{ game.precio }}</p>
     <p class="cancer"><span class="polio">Detalles:</span>{{ game.resumen }}</p>
-    <p class="cancer"><span class="polio">Predicción </span>{% for game.calificacionP %} &#9733; {% endfor %}</p>
+    {% num_range game.calificacionP as rango %}
+    <p class="cancer"><span class="polio">Predicción </span>{% for i in rango  %} &#9733; {% endfor %}</p>
     <h3>Trailer:</h3>
 
 
